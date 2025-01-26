@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><u>Studio Pley Studic</u></title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-image:url('image.jpg');
+            background-size: 100%;
+            color: black;
+            overflow-x: hidden;
+        }
+
+        header {
+            display:flex;
+            justify-content: space-between;
+            align-items: cover;
+            padding: 20px 50px;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 60px;
+        }
+
+        header ul li {
+            cursor: pointer;
+        }
+
+        header .button {
+            padding: 10px 20px;
+            background: #e91e63;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .hero .cta {
+            padding: 15px 30px;
+            background:whitesmoke;
+            border: none;
+            border-radius: 20px;
+            color:crimson;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 50px 20px;
+        }
+
+        .feature {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+        }
+
+        .feature p {
+            font-size: 1em;
+            margin: 15px 0;
+        }
+
+        .feature button {
+            padding: 10px 20px;
+            background: #e91e63;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Studio Pley Studic</div>
+        <ul>
+            <li><b>HOME</b></li>
+            
+            <li><b>ABOUT</b></li>
+            <li><b>CONTACT</b></li>
+        </ul>
+        <button class="button">Get Started</button>
+    </header>
+
+    <section class="hero">
+        <h1>Studio Pley Studic</h1>
+        <p>“Each time you play music, it becomes new."</p>
+        <button class="cta">Learn More</button>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3><u>JAZZ</u></h3>
+            <p>Jazz is a style of music that originated in the United States in the early 20th century.</p>
+            <button>Explore</button>
+        </div>
+        <div class="feature">
+            <h3><u>CLASSIC ROCK</u></h3>
+            <p>Classic rock is known for its powerful vocals, guitar riffs, and timeless melodies. </p>
+            <button>Discover</button>
+        </div>
+        <div class="feature">
+            <h3><u>HIP-HOP</u></h3>
+            <p>Hip-hop is a style of music that originated in New York City in the 1970s.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    
+</body>
+</html>
+<header>
+   
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <button class="button">Get Started</button>
+</header>
+<button class="cta" onclick="location.href='about.html'">Learn More</button>
